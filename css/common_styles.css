@@ -452,7 +452,7 @@ nav ul li.first {
 	color: #fff;	
 	padding: 1.5em;
 	margin: 0 15px;
-	background: #00adee;
+	background: #064785;
 	border-radius: 25px;
 	min-height: 175px;
 }
@@ -559,6 +559,50 @@ nav ul li.first {
 	height: auto;
 	margin: 0 auto;
 }
+#credits {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+.credits {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 100px 0 0 0;
+	overflow: auto;
+}
+.credits-holder {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+.credits h1 {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.credits-box {
+	display: block;
+	width: 20%;
+	height: auto;
+	float: left;
+	position: relative;
+}
+.credits-box img {
+	width: 100%;
+	height:auto;
+	margin: 0;
+}
+.credits-text {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 /* Section - form styles */
 /**************************/
@@ -652,7 +696,7 @@ button:hover {
 /**************************/
 /*section for the footer*/
 footer {
-	padding: 30px 7.8%;
+	padding: 25px 7.8%;
 	overflow: auto;
 	border-top: 1px solid #f47c20;
 }
@@ -661,7 +705,7 @@ footer h3 {
 	float: left;
 }
 ul.footer-nav {
-	display: inline-block;
+	display: none;
 	float: right;
 	list-style: none;
 }
@@ -671,7 +715,7 @@ ul.footer-nav li {
 	font-weight: 400;
 }
 footer img {
-	max-height:50px;
+	max-height:40px;
 	width: auto;
 	max-width: 20%;
 	margin: 0 30px 30px 30px;
